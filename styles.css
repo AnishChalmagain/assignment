@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Leckerli+One&family=Outfit:wght@100..900&family=Sriracha&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #141414;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5em 5%;
+}
+
+nav a {
+    color: #bbbaad;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    color: #bbbaad;
+    display: flex;
+    font-size: 19px;
+    cursor: pointer;
+    font-family: "Outfit", sans-serif;
+}
+
+nav ul li {
+    margin-left: 1em;
+}
+
+.logo {
+    /* margin-right: auto; */
+    font-size: 23px;
+    font-family: sriracha,sans-serif;
+}
+
+.contact-btn button {
+    all: unset;
+    font-family: "Outfit", sans-serif;
+    font-size: 19px;
+    background-color: #bbbaad;
+    color: #141414;
+    border-radius: 15px;
+    padding: 1px 8px;
+    border: 2px solid transparent;
+}
