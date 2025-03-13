@@ -95,7 +95,7 @@ button:hover {
     align-items: center;
     display: flex;
     justify-content: center;
-    height: 80vh;
+    height: 100vh;
 }
 
 .introduction {
@@ -147,4 +147,13 @@ button:hover {
 .social a {
     color: #02c9e4;
     font-size: 25px;
+}
+
+footer {
+    text-align: center;
+    background-color: #222222;
+    color: #bbbaad;
+    padding: 20px 0;
+    border-top: 5px solid;
+    border-color: #bbbaad;
 }
