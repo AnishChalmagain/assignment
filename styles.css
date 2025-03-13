@@ -90,3 +90,61 @@ button:hover {
     color: #bbbaad;
     border-color: #bbbaad;
 }
+
+.personal-detail {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+}
+
+.introduction {
+    color: #bbbaad;
+    padding: 20px;
+    text-align: center;
+}
+
+.introduction h1 {
+    font-family: sriracha, sans-serif;
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+
+.introduction h2 {
+    font-family: leckerli one, sans-serif;
+    margin-top: 0;
+    font-size: 28px;
+}
+
+.introduction p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    font-size: 0 auto 15px;
+    line-height: 1.6;
+    max-width: 750px;
+}
+
+.introduction .download-cv a {
+    text-decoration: none;
+    font-family: "Outfit", sans-serif;
+    font-size: 19px;
+    background-color: #bbbaad;
+    color: #141414;
+    border-radius: 25px;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social a {
+    color: #02c9e4;
+    font-size: 25px;
+}
