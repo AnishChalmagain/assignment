@@ -16,13 +16,11 @@ nav {
 }
 
 nav a {
-    color: #bbbaad;
     text-decoration: none;
 }
 
 nav ul {
     list-style: none;
-    color: #bbbaad;
     display: flex;
     font-size: 19px;
     cursor: pointer;
@@ -33,9 +31,37 @@ nav ul li {
     margin-left: 1em;
 }
 
+nav ul li a {
+    padding-bottom: 10px;
+    position: relative;
+    color: #bbbaad;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #02c9e4;
+}
+
+nav ul li a::after {
+    content: "";
+    position: absolute;
+    background-color: #02c9e4;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    transition: all 0.3s ease-in-out;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+    color: #02c9e4;
+}
+
 .logo {
     font-size: 23px;
     font-family: sriracha,sans-serif;
+    color: #bbbaad;
 }
 
 .contact-btn button {
