@@ -68,7 +68,7 @@ nav ul li a.active::after {
 }
 
 .logo {
-    font-size: 23px;
+    font-size: 28px;
     font-family: sriracha,sans-serif;
     color: #bbbaad;
 }
@@ -152,8 +152,26 @@ button:hover {
 }
 
 .social a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: #02c9e4;
     font-size: 25px;
+    border: 3px solid;
+    border-color: #02c9e4;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px; 
+    text-align: center;
+    font-size: 30px;
+    transition: all 0.3s ease-in-out 0s;   
+}
+
+.social a:hover {
+    color: #141414;
+    background-color: #02c9e4;
+    background-size: 10px;
 }
 
 footer {
