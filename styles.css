@@ -135,6 +135,13 @@ button:hover {
     border: 2px solid transparent;
     margin-top: 15px;
     display: inline-block;
+    transition: all;
+}
+
+.introduction .download-cv a:hover {
+    background-color: #141414;
+    color: #bbbaad;
+    border-color: #bbbaad;
 }
 
 .social {
