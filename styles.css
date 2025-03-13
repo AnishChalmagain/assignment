@@ -200,3 +200,71 @@ footer {
     display: grid;
     grid-area: footer;
 }
+
+.project {
+    display: grid;
+    grid-template-columns:repeat(15,1fr);
+    grid-template-rows:repeat(20,1fr);
+    color: #bbbaad;
+    height: 100vh;
+    /* gap: 5px;
+    padding: 30px 5%; */
+}
+
+.project div {
+    background-color: #022f35;
+    border-radius: 25px;
+    padding: 25px;
+    color: #bbbaad;
+    display: flex;
+    flex-direction: column;
+    justify-content: 16px;
+    /* height: 350px;
+    width: 350px; */
+    overflow: hidden;
+    border-radius: 16px;
+
+}
+
+.first-project {
+    background-color: #022f35;
+    padding: 25px 25px;
+    grid-column: 4/8;
+    grid-row: 2/10;
+
+}
+
+.second-project {
+    background-color: #022f35;
+    padding: 25px 25px;
+    grid-column: 9/13;
+    grid-row: 2/10;
+
+}
+
+.third-project {
+    background-color: #022f35;
+    padding: 25px 25px;
+    grid-column: 4/8;
+    grid-row: 11/19;
+}
+
+
+.fourth-project {
+    background-color: #022f35;
+    padding: 25px 25px;
+    grid-column: 9/13;
+    grid-row: 11/19;
+}
+
+.project h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: sriracha, sans-serif;
+}
+
+.project img {
+    height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
