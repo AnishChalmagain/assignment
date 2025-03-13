@@ -38,6 +38,10 @@ nav ul li a {
     transition: color 0.3s ease-in-out;
 }
 
+nav ul li a.active {
+    color: #02c9e4;
+}
+
 nav ul li a:hover {
     color: #02c9e4;
 }
@@ -54,6 +58,11 @@ nav ul li a::after {
 }
 
 nav ul li a:hover::after {
+    width: 100%;
+    color: #02c9e4;
+}
+
+nav ul li a.active::after {
     width: 100%;
     color: #02c9e4;
 }
