@@ -34,7 +34,6 @@ nav ul li {
 }
 
 .logo {
-    /* margin-right: auto; */
     font-size: 23px;
     font-family: sriracha,sans-serif;
 }
@@ -48,4 +47,11 @@ nav ul li {
     border-radius: 15px;
     padding: 1px 8px;
     border: 2px solid transparent;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+button:hover {
+    background-color: #141414;
+    color: #bbbaad;
+    border-color: #bbbaad;
 }
