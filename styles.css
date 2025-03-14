@@ -267,3 +267,31 @@ footer {
     object-fit: contain;
     border-radius: 10px;
 }
+
+/* demo css */
+
+.video {
+    align-items:  center;
+    display: flex;
+    justify-content: center;
+    height: 20em;
+    padding: 3em 3em;
+    border-radius: 15px;
+    flex-direction: column;
+}
+ .video iframe {
+    border-radius: 20px;
+ }
+
+ .video-link {
+    text-decoration: none;
+    color: #bbbaad;
+    font-size: 30px;
+    font-family: leckerli one ,sans-serif;
+    text-align: center;
+    padding-top: 15px;
+    transition: all 0.3s ease-in-out 0s;
+ }
+ .video-link:hover {
+    color: #9f9a53;
+ }
