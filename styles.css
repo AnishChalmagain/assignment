@@ -212,7 +212,6 @@ footer {
 }
 
 .project div {
-    background-color: #022f35;
     border-radius: 25px;
     padding: 25px;
     color: #bbbaad;
@@ -235,7 +234,7 @@ footer {
 }
 
 .second-project {
-    background-color: #022f35;
+    background-color: #1a6a75;
     padding: 25px 25px;
     grid-column: 9/13;
     grid-row: 2/10;
@@ -243,7 +242,7 @@ footer {
 }
 
 .third-project {
-    background-color: #022f35;
+    background-color: #042c36;
     padding: 25px 25px;
     grid-column: 4/8;
     grid-row: 11/19;
@@ -251,7 +250,7 @@ footer {
 
 
 .fourth-project {
-    background-color: #022f35;
+    background-color: #041e22;
     padding: 25px 25px;
     grid-column: 9/13;
     grid-row: 11/19;
