@@ -88,7 +88,7 @@ nav ul li a.active::after {
     color: #bbbaad;
 }
 
-.contact-btn button {
+.contact-btn {
     all: unset;
     font-family: "Outfit", sans-serif;
     font-size: 19px;
@@ -98,9 +98,10 @@ nav ul li a.active::after {
     padding: 1px 8px;
     border: 2px solid transparent;
     transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
 }
 
-button:hover {
+.contact-btn:hover {
     background-color: #141414;
     color: #bbbaad;
     border-color: #bbbaad;
