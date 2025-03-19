@@ -315,6 +315,7 @@ input {
     display: flex;
 }
 
+
 .contact-form {
 
     flex-direction: column;  
@@ -329,7 +330,7 @@ input {
     border-radius: 20px;
     margin-left: 40%;
     margin-right: auto;
-    max-width: 350px;
+    max-width: 350px;    
 }
 
 .contact-form label {
@@ -348,6 +349,10 @@ form div {
     width: 250px;
     border: none;
     padding-right: 5em;
+}
+
+.footer-contact{
+    margin-top: auto;
 }
 
 .form-message input, textarea {
