@@ -376,3 +376,18 @@ input[type="submit"], input[type="reset"] {
     color: white;
 }
 
+/* report css */
+
+.report-main {
+    background-color: white;
+    width: 70%;
+    margin: 50px auto;
+}
+
+.report-main img {
+    /* height: 20em; */
+    max-width: 70%;
+    align-self: center;
+    display: block;
+    margin: 20px auto;
+}
