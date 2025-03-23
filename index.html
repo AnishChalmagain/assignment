@@ -7,22 +7,24 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="styles.css" media="screen and (min-width: 1000px)">
     <link rel="stylesheet" href="same.css">
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 1000px)">
 </head>
 <body>
-    <section class="Home">
-    <header>
-        <nav>
-            <a href="index.html" class="logo">Portfolio</a>
-            <ul>
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="project.html">Project</a></li>
-                <!-- <li><a href="">Contact</a></li> -->
-                <li><a href="demo.html">Demo</a></li>
-                <li><a href="report.html">Report</a></li>
-            </ul>
-            <a href="contact.html" class="contact-btn">Contact</a>
-        </nav>
-    </header>
+<header>
+    <a href="#nav-menu" class="hamburger">&#9776;</a> <!-- Open Menu -->
+    <nav class="nav-menu" id="nav-menu">
+        <a href="#" class="close-menu">&times;</a> <!-- Close Menu -->
+        <a href="index.html" class="logo">Portfolio</a>
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="project.html">Project</a></li>
+            <li><a href="demo.html">Demo</a></li>
+            <li><a href="report.html">Report</a></li>
+        </ul>
+        <a href="contact.html" class="contact-btn">Contact</a>
+    </nav>
+</header>
+<main>
     <section class="personal-detail">
         <div class="introduction">
             <h1>Anish Chamlagain</h1>
@@ -38,9 +40,9 @@
             </div>
         </div>
     </section>
+</main>
     <footer>
         <p>&copy; 2025 Anish Chamlagain. All rights reserved.</p>
     </footer>
-    </section>
 </body>
 </html>

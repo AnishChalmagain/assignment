@@ -6,22 +6,24 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles.css" media="screen and (min-width: 1000px)">
     <link rel="stylesheet" href="same.css">
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 1000px)">
 </head>
 <body>
     <header>
-        <nav>
+        <a href="#nav-menu" class="hamburger">&#9776;</a> <!-- Open Menu -->
+        <nav class="nav-menu" id="nav-menu">
+            <a href="#" class="close-menu">&times;</a> <!-- Close Menu -->
             <a href="index.html" class="logo">Portfolio</a>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="project.html" class="active">Project</a></li>
-                <!-- <li><a href="">Contact</a></li> -->
                 <li><a href="demo.html">Demo</a></li>
                 <li><a href="report.html">Report</a></li>
             </ul>
             <a href="contact.html" class="contact-btn">Contact</a>
         </nav>
     </header>
-    <section class="project">
+    <main class="project">
         <div class="first-project">
             <h1>Portfolio Website</h1>
             <p>For Web development assignment I created a personal portfolio website. I learned soo many thing while working on this project. This was my first project for web development and was buzzing to see how it turned out</p>
@@ -42,7 +44,7 @@
             <p>I don't think anyone know who is the real creater of Facebook. Everyone is brainwashed into thinking it was Kevin Systrom and Mike Krieger but the truth is it wasn't them it was me</p>
             <img src="img/Instagram.jpg" alt="Instagram Screenshot">
         </div>
-    </section>
+    </main>
     <footer>
         <p>&copy; 2025 Anish Chamlagain. All rights reserved.</p>
     </footer>

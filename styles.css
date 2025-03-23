@@ -1,28 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Leckerli+One&family=Outfit:wght@100..900&family=Sriracha&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
+
+.hamburger {
+    display: none;
+}
+.close-menu {
+    display: none;
 }
 
-body {
-    background: #141414;
-}
-
-.home {
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: auto;
-    grid-template-areas:
-        "header"
-        "main"
-        "footer"    
-    ;
-
+.nav-menu {
+    position: static;
+    display: flex;
+    justify-content: space-between;
+    background: none;
+    height: auto;
 }
 
 nav {
-    display: grid;
+    /* display: grid; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -136,7 +130,7 @@ nav ul li a.active::after {
 .introduction p {
     font-family: Arial, Helvetica, sans-serif;
     margin: 10px;
-    font-size: 0 auto 15px;
+    font-size: 15px;
     line-height: 1.6;
     max-width: 750px;
 }
@@ -218,7 +212,7 @@ footer {
     color: #bbbaad;
     display: flex;
     flex-direction: column;
-    justify-content: 16px;
+    /* justify-content: 16px; */
     /* height: 350px;
     width: 350px; */
     overflow: hidden;
@@ -302,7 +296,7 @@ footer {
 
 input {
     padding: 0.5em;
-    margin-top: 0.5;
+    margin-top: 0.5em;
     background: #cecece;
     border-radius: 0.5em;
     margin-bottom: 0.5em;

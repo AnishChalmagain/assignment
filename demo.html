@@ -6,24 +6,26 @@
     <title>Anish Portfolio</title>
     <link rel="stylesheet" href="styles.css" media="screen and (min-width: 1000px)">
     <link rel="stylesheet" href="same.css">
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 1000px)">
 </head>
 <body>
     <header>
-        <nav>
+        <a href="#nav-menu" class="hamburger">&#9776;</a> <!-- Open Menu -->
+        <nav class="nav-menu" id="nav-menu">
+            <a href="#" class="close-menu">&times;</a> <!-- Close Menu -->
             <a href="index.html" class="logo">Portfolio</a>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="project.html">Project</a></li>
-                <!-- <li><a href="">Contact</a></li> -->
                 <li><a href="demo.html" class="active">Demo</a></li>
                 <li><a href="report.html">Report</a></li>
             </ul>
             <a href="contact.html" class="contact-btn">Contact</a>
         </nav>
     </header>
-    <section class="video">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/_GM-cGqZ5XI?si=Ded2dPkBr0KCQS5L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <main class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/_GM-cGqZ5XI?si=Ded2dPkBr0KCQS5L" title="YouTube video player" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         <a href="#" class="video-link">Video URL is Here</a>
-    </section>
+    </main>
 </body>
 </html>
